@@ -272,8 +272,8 @@
          console.log('abcabc'.slice(1, 3)); // 'bc'
          console.log('abcabc'.concat('a')); // 'abcabca'
          console.log('abcabc'.join('123')); // 'abcabc123'
-         console.log(arr.map()); // 함수형
-         console.log(arr.filter()); // 함수형
-         console.log(arr.reduce()); // 함수형
-         console.log(arr.forEach()); // 함수형
+         console.log([1,2,3].map(ele => ele + 3)); // 함수형 [4,5,6]
+         console.log([1,2,3].filter(ele => ele > 2)); // 함수형 [3]
+         console.log([1,2,3].reduce()); // 함수형
+         console.log([1,2,3].forEach(ele => console.log(ele))); // 함수형
          ```

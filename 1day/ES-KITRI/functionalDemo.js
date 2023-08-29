@@ -6,3 +6,6 @@ const testArr = [1, 2, 3, 4, 5];
 console.log(testArr.push(6), testArr);
 //immutable 방식
 console.log(testArr.slice(1, 3), testArr);
+
+const resultArr = testArr.map(ele => ele + 3);
+console.log(resultArr);
