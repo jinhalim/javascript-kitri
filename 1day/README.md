@@ -1,5 +1,6 @@
 ## 1 일차
-==================
+
+
 1. 개발 환경설정
    - VScode 설치
    - ESLint, vscode-icons, Live Server extensions install
