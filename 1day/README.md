@@ -1,6 +1,5 @@
 ## 1 일차
-
-
+==================
 1. 개발 환경설정
    - VScode 설치
    - ESLint, vscode-icons, Live Server extensions install
@@ -29,7 +28,7 @@
    console.log('hello world~!');
    console.log('안녕하세요');
    ```
-2. 변수 기본 컨셉
+2. 변수
    - 데이터 선언 : var / let / const
    - 기본 데이터 타입
    <br><strong>자동으로 타입이 추론 됨.</strong>
@@ -62,13 +61,41 @@
        + Array : []
          <br>index를 통해서 element 접근 가능
          ```js
-         const arr1 = new Array("a","b","c");
-         const arr2 = ["a","b","c"];
+         const arr1 = new Array('a','b','c');
+         const arr2 = ['a','b','c'];
          console.log(typeof arr1, typeof arr2); // Array Array
+         ```
+         <br>ES-KITRI/arrayDemo.js
+         ```js
+         const favoriteColors = ['red', 'blue', 'pink', 'violet'];
+         favoriteColors.push('white')
+         console.log(favoriteColors);
+         //['red', 'blue', 'pink', 'violet' ,'white']
+         favoriteColors[4] = 'black';
+         console.log(favoriteColors);
+         //['red', 'blue', 'pink', 'violet' ,'black']
+         for (const color of favoriteColors) {
+            console.log(color);
+         }
+         /* red
+         blue
+         pink
+         violet
+         black */
          ```
        + Object : {}
          <br>Key : Value 조합으로 Key를 이용해서 element 접근 가능
          ```js
-         const obj = {name : "jin", age :27};
+         const obj = {name : 'jin', age :27};
          console.log(typeof obj); // Object
+         console.log(obj['name']); // jin
          ```
+3. 함수형 프로그래밍
+   ```js
+   favoriteColors.forEach(color => console.log(color));
+   /* red
+      blue
+      pink
+      violet
+      black */
+   ```
