@@ -173,7 +173,7 @@ button.addEventListener('click', function () {
     + Websocket API
     + REST API
 - REST API
-    ![Alt text](image.png)
+    
     ```js
     //백엔드에서 데이터를 가져온다.
     //API server의 url
@@ -204,3 +204,4 @@ button.addEventListener('click', function () {
             });
         });
     ```
+    ![image](image.png)
