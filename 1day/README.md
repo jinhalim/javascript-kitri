@@ -1,11 +1,11 @@
 ## 1 일차
 
 
-1. 개발 환경설정
+### 1. 개발 환경설정
    - VScode 설치
    - ESLint, vscode-icons, Live Server extensions install
    - hello world 해보기
-   ##### ES-KITRI/index.js
+   ES-KITRI/index.js
    ```html
    <!DOCTYPE html>
    <html lang="en">
@@ -23,12 +23,12 @@
 
    </html>
    ```
-   ##### ES-KITRI/app.js
+   ES-KITRI/app.js
    ```JavaScript
    console.log('hello world~!');
    console.log('안녕하세요');
    ```
-2. 변수
+### 2. 변수
    - 데이터 선언 : var / let / const
    - 기본 데이터 타입
    <br><strong>자동으로 타입이 추론 됨.</strong>
@@ -148,7 +148,7 @@
          console.log(member['address']['city']);
          console.log(member.address.city);
          ```
-3. 조건문&반복문
+### 3. 조건문&반복문
    - IF 문 ( + 조건부 삼항 연산자 )
       ```js
       if(age > 19){
@@ -188,7 +188,7 @@
          ```
       <br> `continue` : 코드 중단후 다음 반복 수행
       <br> `break` :  반복문 중단
-4. 함수
+### 4. 함수
    - Function 정의 방법
       + Named Function : 일반 함수
          ```js
@@ -251,7 +251,7 @@
          }
          console.log(sum(...numbers)); // 6
          ```
-5. 배열 데이터 처리
+### 5. 배열 데이터 처리
    - 처리 방식
       + Mutable : 원복 배열이 변경되는 방식
          <br>원복데이터 보존해야하는 경우 비추
