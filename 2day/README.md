@@ -171,7 +171,7 @@ button.addEventListener('click', function () {
     + SOAP API
     + RPC API
     + Websocket API
-    + `REST API`
+    + REST API
 - REST API
     ![Alt text](image.png)
     ```js
